@@ -1,0 +1,33 @@
+body{
+    align-items: center;
+    text-align: center;
+    background-color:cornflowerblue;
+}
+td{
+    background-color:lightblue;
+    border: 5px;
+    border-color: black;
+    border-style:solid;
+    border-width: 4px;
+    height:11rem;
+    width: 11rem;
+    font-size:7rem;
+    color:mediumseagreen;
+}
+#headline{
+    color:darkblue;
+    font-size:3rem;
+    font-family: "Press Start 2P",cursive;
+    transition:opacity 0.5s ease-in-out;
+}
+.hidden{
+    opacity:0;
+}
+table{
+    margin-left:auto;
+    margin-right:auto;
+}
+td:hover{
+    background-color: antiquewhite;
+}
+
